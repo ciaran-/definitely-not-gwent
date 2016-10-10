@@ -1,0 +1,9 @@
+CREATE TABLE factions(
+    id bigserial NOT NULL,
+    name varchar(64) NOT NULL,
+    description varchar(256) NOT NULL,
+    img varchar(1024) NOT NULL
+);
+
+insert into factions(name, description, img) values
+    ('Overwatch', 'Heroes affiliated with the original Overwatch group', 'overwatch_logo.jpg');
